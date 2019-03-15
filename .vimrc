@@ -19,7 +19,6 @@ iab _python #!/usr/bin/env python
 
 " Some settings to Python files
 au FileType python syn match pythonTAB '\t\+'
-au FileType python hi pythonTAB ctermbg=blue
 au FileType python set ts=4 tw=80 noet
 au FileType python hi pythonString ctermfg=darkgreen
 
