@@ -24,3 +24,6 @@ au FileType python hi pythonString ctermfg=darkgreen
 
 " Tab fix
 set tabstop=4
+
+" File extensions
+au BufNewFile,BufRead Jenkinsfile setf groovy
